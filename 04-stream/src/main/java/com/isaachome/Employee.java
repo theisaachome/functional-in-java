@@ -7,8 +7,7 @@ public class Employee {
 	private String name;
 	private String email;
 	private String address;
-	private int age;
-	
+	private Integer age;
 	public Employee(String name, String email, String address, int age) {
 		super();
 		this.name = name;
@@ -43,13 +42,16 @@ public class Employee {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public int getAge() {
+	
+	
+	public Integer getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+
+	public void setAge(Integer age) {
 		this.age = age;
 	}
-	
+
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
